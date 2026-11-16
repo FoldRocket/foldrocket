@@ -1,0 +1,28 @@
+{
+  "name": "foldrocket-free-source",
+  "private": true,
+  "version": "1.4.32",
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "build": "npm run build:admin && npm run build:media",
+    "build:admin": "FRKT_EDITION=free FRKT_ENTRY=admin-free FRKT_OUT_DIR=assets/js vite build",
+    "build:media": "FRKT_EDITION=free FRKT_ENTRY=media-modal FRKT_OUT_DIR=assets/js vite build"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.59.0",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.7.0",
+    "source-map-js": "^1.2.2",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.6.3",
+    "vite": "^6.4.5"
+  }
+}

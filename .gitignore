@@ -1,0 +1,4 @@
+node_modules/
+assets/js/
+.verify/
+.DS_Store

@@ -1,0 +1,999 @@
+{
+  "openai": [
+    {
+      "id": "gpt-6-luna",
+      "label": "gpt-6-luna"
+    },
+    {
+      "id": "gpt-6.1-terra",
+      "label": "gpt-6.1-terra"
+    },
+    {
+      "id": "gpt-6.1-sol",
+      "label": "gpt-6.1-sol"
+    },
+    {
+      "id": "gpt-6-astra",
+      "label": "gpt-6-astra"
+    },
+    {
+      "id": "gpt-6-sol",
+      "label": "gpt-6-sol"
+    },
+    {
+      "id": "gpt-5.5",
+      "label": "gpt-5.5"
+    },
+    {
+      "id": "gpt-5.4-mini",
+      "label": "gpt-5.4-mini"
+    },
+    {
+      "id": "gpt-5.4-nano",
+      "label": "gpt-5.4-nano"
+    },
+    {
+      "id": "gpt-5.4",
+      "label": "gpt-5.4"
+    },
+    {
+      "id": "gpt-5.2",
+      "label": "gpt-5.2"
+    },
+    {
+      "id": "gpt-5.1",
+      "label": "gpt-5.1"
+    },
+    {
+      "id": "gpt-5-mini",
+      "label": "gpt-5-mini"
+    },
+    {
+      "id": "gpt-5-nano",
+      "label": "gpt-5-nano"
+    },
+    {
+      "id": "gpt-5",
+      "label": "gpt-5"
+    },
+    {
+      "id": "gpt-4.1-mini",
+      "label": "gpt-4.1-mini"
+    },
+    {
+      "id": "gpt-4.1-nano",
+      "label": "gpt-4.1-nano"
+    },
+    {
+      "id": "gpt-4.1",
+      "label": "gpt-4.1"
+    },
+    {
+      "id": "gpt-4o-mini",
+      "label": "gpt-4o-mini",
+      "recommended": true
+    },
+    {
+      "id": "gpt-4o",
+      "label": "gpt-4o"
+    },
+    {
+      "id": "o3",
+      "label": "o3"
+    },
+    {
+      "id": "o4-mini",
+      "label": "o4-mini"
+    }
+  ],
+  "gemini": [
+    {
+      "id": "gemini-4-argon",
+      "label": "gemini-4-argon"
+    },
+    {
+      "id": "gemini-3.8-flash",
+      "label": "gemini-3.8-flash"
+    },
+    {
+      "id": "gemini-3.6-flash",
+      "label": "gemini-3.6-flash"
+    },
+    {
+      "id": "gemini-3.5-flash-lite",
+      "label": "gemini-3.5-flash-lite"
+    },
+    {
+      "id": "gemini-3.1-flash-lite",
+      "label": "gemini-3.1-flash-lite"
+    },
+    {
+      "id": "gemini-3-flash-preview",
+      "label": "gemini-3-flash-preview"
+    },
+    {
+      "id": "gemini-2.5-flash",
+      "label": "gemini-2.5-flash",
+      "recommended": true
+    },
+    {
+      "id": "gemini-2.5-flash-lite",
+      "label": "gemini-2.5-flash-lite"
+    },
+    {
+      "id": "gemini-2.5-pro",
+      "label": "gemini-2.5-pro"
+    }
+  ],
+  "anthropic": [
+    {
+      "id": "claude-haiku-5-5",
+      "label": "claude-haiku-5-5"
+    },
+    {
+      "id": "claude-sonnet-5-5",
+      "label": "claude-sonnet-5-5"
+    },
+    {
+      "id": "claude-opus-5-5",
+      "label": "claude-opus-5-5"
+    },
+    {
+      "id": "claude-fable-5-1",
+      "label": "claude-fable-5-1"
+    },
+    {
+      "id": "claude-sonnet-5",
+      "label": "claude-sonnet-5"
+    },
+    {
+      "id": "claude-opus-5",
+      "label": "claude-opus-5"
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "label": "claude-sonnet-4-6"
+    },
+    {
+      "id": "claude-opus-4-6",
+      "label": "claude-opus-4-6"
+    },
+    {
+      "id": "claude-sonnet-4-5",
+      "label": "claude-sonnet-4-5",
+      "recommended": true
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "label": "claude-haiku-4-5"
+    },
+    {
+      "id": "claude-opus-4-5",
+      "label": "claude-opus-4-5"
+    }
+  ],
+  "xai": [
+    {
+      "id": "grok-4.7",
+      "label": "grok-4.7",
+      "recommended": true
+    },
+    {
+      "id": "grok-4.6",
+      "label": "grok-4.6"
+    },
+    {
+      "id": "grok-4.5",
+      "label": "grok-4.5"
+    },
+    {
+      "id": "grok-4.20",
+      "label": "grok-4.20"
+    },
+    {
+      "id": "grok-4-1-fast-non-reasoning",
+      "label": "grok-4-1-fast-non-reasoning"
+    },
+    {
+      "id": "grok-4-1-fast-reasoning",
+      "label": "grok-4-1-fast-reasoning"
+    },
+    {
+      "id": "grok-4-fast-non-reasoning",
+      "label": "grok-4-fast-non-reasoning"
+    },
+    {
+      "id": "grok-4-fast-reasoning",
+      "label": "grok-4-fast-reasoning"
+    },
+    {
+      "id": "grok-4",
+      "label": "grok-4"
+    }
+  ],
+  "mistral": [
+    {
+      "id": "mistral-large-4",
+      "label": "mistral-large-4"
+    },
+    {
+      "id": "mistral-large-latest",
+      "label": "mistral-large-latest"
+    },
+    {
+      "id": "mistral-small-latest",
+      "label": "mistral-small-latest"
+    },
+    {
+      "id": "pixtral-large-latest",
+      "label": "pixtral-large-latest",
+      "recommended": true
+    },
+    {
+      "id": "pixtral-12b-2409",
+      "label": "pixtral-12b-2409"
+    },
+    {
+      "id": "ministral-3b-2512",
+      "label": "ministral-3b-2512"
+    },
+    {
+      "id": "ministral-8b-2512",
+      "label": "ministral-8b-2512"
+    },
+    {
+      "id": "ministral-14b-2512",
+      "label": "ministral-14b-2512"
+    }
+  ],
+  "openrouter": [
+    {
+      "id": "z-ai/glm-5.3-flashx-legal",
+      "label": "Z.ai: GLM 5.3 FlashX Legal"
+    },
+    {
+      "id": "particle-ai/particle-1",
+      "label": "Particle AI: Particle-1"
+    },
+    {
+      "id": "openai/gpt-6.1-terra-pro",
+      "label": "OpenAI: GPT-6.1 Terra Pro"
+    },
+    {
+      "id": "openai/gpt-6.1-terra",
+      "label": "OpenAI: GPT-6.1 Terra"
+    },
+    {
+      "id": "moonshotai/kimi-k3.1-pro",
+      "label": "MoonshotAI: Kimi K3.1 Pro"
+    },
+    {
+      "id": "minimax/minimax-m3.1-flash",
+      "label": "MiniMax: MiniMax M3.1 Flash"
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "label": "DeepSeek: DeepSeek V4.1 Flash 1017"
+    },
+    {
+      "id": "elorian/glimpse",
+      "label": "Elorian: Glimpse"
+    },
+    {
+      "id": "prism-ml/ternary-bonsai-2-9b",
+      "label": "PrismML: Ternary Bonsai 2 9B"
+    },
+    {
+      "id": "meta/muse-spark-open",
+      "label": "Meta: Muse Spark Open"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-super-vl",
+      "label": "NVIDIA: Nemotron 3.5 Super VL"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-super-vl:free",
+      "label": "NVIDIA: Nemotron 3.5 Super VL (free)"
+    },
+    {
+      "id": "unbiased/pareto-26.9",
+      "label": "Pareto 26.9"
+    },
+    {
+      "id": "google/gemini-4-argon",
+      "label": "Google: Gemini 4 Argon"
+    },
+    {
+      "id": "meta/muse-wonder",
+      "label": "Meta: Muse Wonder"
+    },
+    {
+      "id": "stepfun/step-5-preview",
+      "label": "StepFun: Step 5 Preview"
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5",
+      "label": "Anthropic: Claude Haiku 5.5"
+    },
+    {
+      "id": "mistralai/mistral-large-4-0",
+      "label": "Mistral: Mistral Large 4"
+    },
+    {
+      "id": "openai/gpt-6.1-sol-pro",
+      "label": "OpenAI: GPT-6.1 Sol Pro"
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "label": "OpenAI: GPT-6.1 Sol"
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5",
+      "label": "Anthropic: Claude Sonnet 5.5"
+    },
+    {
+      "id": "perceptron/perceptron-mk1.5",
+      "label": "Perceptron: Perceptron Mk1.5"
+    },
+    {
+      "id": "fireworks/ember-1",
+      "label": "Fireworks: Ember-1"
+    },
+    {
+      "id": "qwen/qwen3.8-max-prime",
+      "label": "Qwen: Qwen3.8 Max Prime"
+    },
+    {
+      "id": "cohere/command-a-plus",
+      "label": "Cohere: Command A+"
+    },
+    {
+      "id": "openai/gpt-6-luna-pro",
+      "label": "OpenAI: GPT-6 Luna Pro"
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "label": "OpenAI: GPT-6 Luna"
+    },
+    {
+      "id": "openai/gpt-6-sol-pro",
+      "label": "OpenAI: GPT-6 Sol Pro"
+    },
+    {
+      "id": "openai/gpt-6-sol",
+      "label": "OpenAI: GPT-6 Sol"
+    },
+    {
+      "id": "anthropic/claude-opus-5.5",
+      "label": "Anthropic: Claude Opus 5.5"
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "label": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed"
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-flash",
+      "label": "Xiaomi: MiMo-V2.6-Flash"
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "label": "Xiaomi: MiMo-V2.6-Pro"
+    },
+    {
+      "id": "x-ai/grok-4.7",
+      "label": "SpaceXAI: Grok 4.7"
+    },
+    {
+      "id": "qwen/qwen3.8-omni-flash",
+      "label": "Qwen: Qwen3.8 Omni Flash"
+    },
+    {
+      "id": "prism-ml/ternary-bonsai-2-27b",
+      "label": "PrismML: Ternary Bonsai 2 27B"
+    },
+    {
+      "id": "z-ai/glm-5.3-flashx",
+      "label": "Z.ai: GLM 5.3 FlashX"
+    },
+    {
+      "id": "sakana/fugu-ultra-v2",
+      "label": "Sakana: Fugu Ultra v2"
+    },
+    {
+      "id": "sakana/fugu-max",
+      "label": "Sakana: Fugu Max"
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-vl",
+      "label": "inclusionAI: Ling 3.0 Flash VL"
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "label": "DeepSeek: DeepSeek V4.1 Flash"
+    },
+    {
+      "id": "nex-agi/nex-n2.5-mini",
+      "label": "Nex AGI: Nex-N2.5-Mini"
+    },
+    {
+      "id": "nex-agi/nex-n2.5-pro",
+      "label": "Nex AGI: Nex-N2.5-Pro"
+    },
+    {
+      "id": "openai/gpt-6-astra",
+      "label": "OpenAI: GPT-6 Astra"
+    },
+    {
+      "id": "openai/gpt-6-astra-pro",
+      "label": "OpenAI: GPT-6 Astra Pro"
+    },
+    {
+      "id": "qwen/qwen3.8-max-0902",
+      "label": "Qwen: Qwen3.8 Max (0902)"
+    },
+    {
+      "id": "meta/muse-spark-1.3-contributor",
+      "label": "Meta: Muse Spark 1.3 Contributor"
+    },
+    {
+      "id": "meta/muse-spark-1.3",
+      "label": "Meta: Muse Spark 1.3"
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "label": "Google: Gemini 3.8 Flash"
+    },
+    {
+      "id": "anthropic/claude-fable-5.1",
+      "label": "Anthropic: Claude Fable 5.1"
+    },
+    {
+      "id": "qwen/qwen3.8-flash",
+      "label": "Qwen: Qwen3.8 Flash"
+    },
+    {
+      "id": "z-ai/glm-5.3-flash",
+      "label": "Z.ai: GLM 5.3 Flash"
+    },
+    {
+      "id": "meta/muse-spark-1.2-contributor",
+      "label": "Meta: Muse Spark 1.2 Contributor"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "label": "DeepSeek: DeepSeek V4 Flash Vision Exp"
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "label": "Qwen: Qwen3.8 27B"
+    },
+    {
+      "id": "dots-studio/dots-3-note-preview:free",
+      "label": "Dots Studio: Dots3-Note Preview (free)"
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "label": "Google: Gemini 3.7 Flash"
+    },
+    {
+      "id": "bytedance-seed/seed-2-1-turbo",
+      "label": "ByteDance Seed: Seed 2.1 Turbo"
+    },
+    {
+      "id": "bytedance-seed/seed-2.0-code",
+      "label": "ByteDance Seed: Seed-2.0-Code"
+    },
+    {
+      "id": "x-ai/grok-4.6",
+      "label": "SpaceXAI: Grok 4.6"
+    },
+    {
+      "id": "sakana/sakana-namazu",
+      "label": "Sakana: Sakana Namazu"
+    },
+    {
+      "id": "meta/muse-glimmer-30b",
+      "label": "Meta: Muse Glimmer 30B"
+    },
+    {
+      "id": "meta/muse-spark-1.2",
+      "label": "Meta: Muse Spark 1.2"
+    },
+    {
+      "id": "qwen/qwen3.7-flash",
+      "label": "Qwen: Qwen3.7 Flash"
+    },
+    {
+      "id": "anthropic/claude-opus-5",
+      "label": "Anthropic: Claude Opus 5"
+    },
+    {
+      "id": "google/gemini-3.6-flash",
+      "label": "Google: Gemini 3.6 Flash"
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "label": "Google: Gemini 3.5 Flash Lite"
+    },
+    {
+      "id": "moonshotai/kimi-k3",
+      "label": "MoonshotAI: Kimi K3"
+    },
+    {
+      "id": "meta/muse-spark-1.1",
+      "label": "Meta: Muse Spark 1.1"
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro",
+      "label": "OpenAI: GPT-5.6 Luna Pro"
+    },
+    {
+      "id": "openai/gpt-5.6-luna",
+      "label": "OpenAI: GPT-5.6 Luna"
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro",
+      "label": "OpenAI: GPT-5.6 Terra Pro"
+    },
+    {
+      "id": "openai/gpt-5.6-terra",
+      "label": "OpenAI: GPT-5.6 Terra"
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro",
+      "label": "OpenAI: GPT-5.6 Sol Pro"
+    },
+    {
+      "id": "openai/gpt-5.6-sol",
+      "label": "OpenAI: GPT-5.6 Sol"
+    },
+    {
+      "id": "x-ai/grok-4.5",
+      "label": "SpaceXAI: Grok 4.5"
+    },
+    {
+      "id": "anthropic/claude-sonnet-5",
+      "label": "Anthropic: Claude Sonnet 5"
+    },
+    {
+      "id": "sakana/fugu-ultra",
+      "label": "Sakana: Fugu Ultra"
+    },
+    {
+      "id": "moonshotai/kimi-k2.7-code",
+      "label": "MoonshotAI: Kimi K2.7 Code"
+    },
+    {
+      "id": "anthropic/claude-fable-5",
+      "label": "Anthropic: Claude Fable 5"
+    },
+    {
+      "id": "qwen/qwen3.7-plus",
+      "label": "Qwen: Qwen3.7 Plus"
+    },
+    {
+      "id": "minimax/minimax-m3",
+      "label": "MiniMax: MiniMax M3"
+    },
+    {
+      "id": "stepfun/step-3.7-flash",
+      "label": "StepFun: Step 3.7 Flash"
+    },
+    {
+      "id": "anthropic/claude-opus-4.8",
+      "label": "Anthropic: Claude Opus 4.8"
+    },
+    {
+      "id": "x-ai/grok-build-0.1",
+      "label": "SpaceXAI: Grok Build 0.1"
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "label": "Google: Gemini 3.5 Flash"
+    },
+    {
+      "id": "perceptron/perceptron-mk1",
+      "label": "Perceptron: Perceptron Mk1"
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "label": "Google: Gemini 3.1 Flash Lite"
+    },
+    {
+      "id": "openai/gpt-chat-latest",
+      "label": "OpenAI: GPT Chat Latest"
+    },
+    {
+      "id": "x-ai/grok-4.3",
+      "label": "SpaceXAI: Grok 4.3"
+    },
+    {
+      "id": "mistralai/mistral-medium-3-5",
+      "label": "Mistral: Mistral Medium 3.5"
+    },
+    {
+      "id": "qwen/qwen3.5-plus-20260420",
+      "label": "Qwen: Qwen3.5 Plus 2026-04-20"
+    },
+    {
+      "id": "qwen/qwen3.6-flash",
+      "label": "Qwen: Qwen3.6 Flash"
+    },
+    {
+      "id": "qwen/qwen3.6-35b-a3b",
+      "label": "Qwen: Qwen3.6 35B A3B"
+    },
+    {
+      "id": "qwen/qwen3.6-27b",
+      "label": "Qwen: Qwen3.6 27B"
+    },
+    {
+      "id": "openai/gpt-5.5-pro",
+      "label": "OpenAI: GPT-5.5 Pro"
+    },
+    {
+      "id": "openai/gpt-5.5",
+      "label": "OpenAI: GPT-5.5"
+    },
+    {
+      "id": "xiaomi/mimo-v2.5",
+      "label": "Xiaomi: MiMo-V2.5"
+    },
+    {
+      "id": "moonshotai/kimi-k2.6",
+      "label": "MoonshotAI: Kimi K2.6"
+    },
+    {
+      "id": "anthropic/claude-opus-4.7",
+      "label": "Anthropic: Claude Opus 4.7"
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it",
+      "label": "Google: Gemma 4 26B A4B"
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it:free",
+      "label": "Google: Gemma 4 26B A4B (free)"
+    },
+    {
+      "id": "google/gemma-4-31b-it",
+      "label": "Google: Gemma 4 31B"
+    },
+    {
+      "id": "google/gemma-4-31b-it:free",
+      "label": "Google: Gemma 4 31B (free)"
+    },
+    {
+      "id": "qwen/qwen3.6-plus",
+      "label": "Qwen: Qwen3.6 Plus"
+    },
+    {
+      "id": "z-ai/glm-5v-turbo",
+      "label": "Z.ai: GLM 5V Turbo"
+    },
+    {
+      "id": "x-ai/grok-4.20-multi-agent",
+      "label": "SpaceXAI: Grok 4.20 Multi-Agent"
+    },
+    {
+      "id": "x-ai/grok-4.20",
+      "label": "SpaceXAI: Grok 4.20"
+    },
+    {
+      "id": "rekaai/reka-edge",
+      "label": "Reka Edge"
+    },
+    {
+      "id": "openai/gpt-5.4-nano",
+      "label": "OpenAI: GPT-5.4 Nano"
+    },
+    {
+      "id": "openai/gpt-5.4-mini",
+      "label": "OpenAI: GPT-5.4 Mini"
+    },
+    {
+      "id": "mistralai/mistral-small-2603",
+      "label": "Mistral: Mistral Small 4"
+    },
+    {
+      "id": "bytedance-seed/seed-2.0-lite",
+      "label": "ByteDance Seed: Seed-2.0-Lite"
+    },
+    {
+      "id": "qwen/qwen3.5-9b",
+      "label": "Qwen: Qwen3.5-9B"
+    },
+    {
+      "id": "openai/gpt-5.4-pro",
+      "label": "OpenAI: GPT-5.4 Pro"
+    },
+    {
+      "id": "openai/gpt-5.4",
+      "label": "OpenAI: GPT-5.4"
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-preview",
+      "label": "Google: Gemini 3.1 Flash Lite Preview"
+    },
+    {
+      "id": "bytedance-seed/seed-2.0-mini",
+      "label": "ByteDance Seed: Seed-2.0-Mini"
+    },
+    {
+      "id": "qwen/qwen3.5-35b-a3b",
+      "label": "Qwen: Qwen3.5-35B-A3B"
+    },
+    {
+      "id": "qwen/qwen3.5-27b",
+      "label": "Qwen: Qwen3.5-27B"
+    },
+    {
+      "id": "qwen/qwen3.5-122b-a10b",
+      "label": "Qwen: Qwen3.5-122B-A10B"
+    },
+    {
+      "id": "qwen/qwen3.5-flash-02-23",
+      "label": "Qwen: Qwen3.5-Flash"
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview-customtools",
+      "label": "Google: Gemini 3.1 Pro Preview Custom Tools"
+    },
+    {
+      "id": "openai/gpt-5.3-codex",
+      "label": "OpenAI: GPT-5.3-Codex"
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview",
+      "label": "Google: Gemini 3.1 Pro Preview"
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.6",
+      "label": "Anthropic: Claude Sonnet 4.6"
+    },
+    {
+      "id": "qwen/qwen3.5-plus-02-15",
+      "label": "Qwen: Qwen3.5 Plus 2026-02-15"
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b",
+      "label": "Qwen: Qwen3.5 397B A17B"
+    },
+    {
+      "id": "anthropic/claude-opus-4.6",
+      "label": "Anthropic: Claude Opus 4.6"
+    },
+    {
+      "id": "moonshotai/kimi-k2.5",
+      "label": "MoonshotAI: Kimi K2.5"
+    },
+    {
+      "id": "openai/gpt-5.2-codex",
+      "label": "OpenAI: GPT-5.2-Codex"
+    },
+    {
+      "id": "bytedance-seed/seed-1.6-flash",
+      "label": "ByteDance Seed: Seed 1.6 Flash"
+    },
+    {
+      "id": "bytedance-seed/seed-1.6",
+      "label": "ByteDance Seed: Seed 1.6"
+    },
+    {
+      "id": "google/gemini-3-flash-preview",
+      "label": "Google: Gemini 3 Flash Preview"
+    },
+    {
+      "id": "openai/gpt-5.2-chat",
+      "label": "OpenAI: GPT-5.2 Chat"
+    },
+    {
+      "id": "openai/gpt-5.2-pro",
+      "label": "OpenAI: GPT-5.2 Pro"
+    },
+    {
+      "id": "openai/gpt-5.2",
+      "label": "OpenAI: GPT-5.2"
+    },
+    {
+      "id": "z-ai/glm-4.6v",
+      "label": "Z.ai: GLM 4.6V"
+    },
+    {
+      "id": "openai/gpt-5.1-codex-max",
+      "label": "OpenAI: GPT-5.1-Codex-Max"
+    },
+    {
+      "id": "mistralai/ministral-14b-2512",
+      "label": "Mistral: Ministral 3 14B 2512"
+    },
+    {
+      "id": "mistralai/ministral-8b-2512",
+      "label": "Mistral: Ministral 3 8B 2512"
+    },
+    {
+      "id": "mistralai/ministral-3b-2512",
+      "label": "Mistral: Ministral 3 3B 2512"
+    },
+    {
+      "id": "mistralai/mistral-large-2512",
+      "label": "Mistral: Mistral Large 3 2512"
+    },
+    {
+      "id": "anthropic/claude-opus-4.5",
+      "label": "Anthropic: Claude Opus 4.5"
+    },
+    {
+      "id": "openai/gpt-5.1",
+      "label": "OpenAI: GPT-5.1"
+    },
+    {
+      "id": "openai/gpt-5.1-codex",
+      "label": "OpenAI: GPT-5.1-Codex"
+    },
+    {
+      "id": "openai/gpt-5.1-codex-mini",
+      "label": "OpenAI: GPT-5.1-Codex-Mini"
+    },
+    {
+      "id": "perplexity/sonar-pro-search",
+      "label": "Perplexity: Sonar Pro Search"
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5",
+      "label": "Anthropic: Claude Haiku 4.5"
+    },
+    {
+      "id": "qwen/qwen3-vl-8b-instruct",
+      "label": "Qwen: Qwen3 VL 8B Instruct"
+    },
+    {
+      "id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "label": "Qwen: Qwen3 VL 30B A3B Thinking"
+    },
+    {
+      "id": "qwen/qwen3-vl-30b-a3b-instruct",
+      "label": "Qwen: Qwen3 VL 30B A3B Instruct"
+    },
+    {
+      "id": "openai/gpt-5-pro",
+      "label": "OpenAI: GPT-5 Pro"
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.5",
+      "label": "Anthropic: Claude Sonnet 4.5"
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-instruct",
+      "label": "Qwen: Qwen3 VL 235B A22B Instruct"
+    },
+    {
+      "id": "mistralai/mistral-medium-3.1",
+      "label": "Mistral: Mistral Medium 3.1"
+    },
+    {
+      "id": "z-ai/glm-4.5v",
+      "label": "Z.ai: GLM 4.5V"
+    },
+    {
+      "id": "openai/gpt-5",
+      "label": "OpenAI: GPT-5"
+    },
+    {
+      "id": "openai/gpt-5-mini",
+      "label": "OpenAI: GPT-5 Mini"
+    },
+    {
+      "id": "openai/gpt-5-nano",
+      "label": "OpenAI: GPT-5 Nano"
+    },
+    {
+      "id": "bytedance/ui-tars-1.5-7b",
+      "label": "ByteDance: UI-TARS 7B"
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "label": "Google: Gemini 2.5 Flash Lite"
+    },
+    {
+      "id": "mistralai/mistral-small-3.2-24b-instruct",
+      "label": "Mistral: Mistral Small 3.2 24B"
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "label": "Google: Gemini 2.5 Flash"
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "label": "Google: Gemini 2.5 Pro"
+    },
+    {
+      "id": "openai/o3-pro",
+      "label": "OpenAI: o3 Pro"
+    },
+    {
+      "id": "google/gemini-2.5-pro-preview",
+      "label": "Google: Gemini 2.5 Pro Preview 06-05"
+    },
+    {
+      "id": "mistralai/mistral-medium-3",
+      "label": "Mistral: Mistral Medium 3"
+    },
+    {
+      "id": "openai/o3",
+      "label": "OpenAI: o3"
+    },
+    {
+      "id": "openai/gpt-4.1",
+      "label": "OpenAI: GPT-4.1"
+    },
+    {
+      "id": "openai/gpt-4.1-mini",
+      "label": "OpenAI: GPT-4.1 Mini"
+    },
+    {
+      "id": "openai/gpt-4.1-nano",
+      "label": "OpenAI: GPT-4.1 Nano"
+    },
+    {
+      "id": "meta-llama/llama-4-maverick",
+      "label": "Meta: Llama 4 Maverick"
+    },
+    {
+      "id": "meta-llama/llama-4-scout",
+      "label": "Meta: Llama 4 Scout"
+    },
+    {
+      "id": "mistralai/mistral-small-3.1-24b-instruct",
+      "label": "Mistral: Mistral Small 3.1 24B"
+    },
+    {
+      "id": "google/gemma-3-4b-it",
+      "label": "Google: Gemma 3 4B"
+    },
+    {
+      "id": "google/gemma-3-12b-it",
+      "label": "Google: Gemma 3 12B"
+    },
+    {
+      "id": "google/gemma-3-27b-it",
+      "label": "Google: Gemma 3 27B"
+    },
+    {
+      "id": "qwen/qwen2.5-vl-72b-instruct",
+      "label": "Qwen: Qwen2.5 VL 72B Instruct"
+    },
+    {
+      "id": "openai/gpt-4o-2024-11-20",
+      "label": "OpenAI: GPT-4o (2024-11-20)"
+    },
+    {
+      "id": "openai/gpt-4o-2024-08-06",
+      "label": "OpenAI: GPT-4o (2024-08-06)"
+    },
+    {
+      "id": "openai/gpt-4o-mini",
+      "label": "OpenAI: GPT-4o-mini"
+    },
+    {
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "label": "OpenAI: GPT-4o-mini (2024-07-18)"
+    },
+    {
+      "id": "openai/gpt-4o",
+      "label": "OpenAI: GPT-4o"
+    },
+    {
+      "id": "openai/gpt-4o-2024-05-13",
+      "label": "OpenAI: GPT-4o (2024-05-13)"
+    },
+    {
+      "id": "typesafe/jev-router",
+      "label": "TypeSafe: Jev Router"
+    },
+    {
+      "id": "openrouter/free",
+      "label": "Free Models Router"
+    }
+  ]
+}
